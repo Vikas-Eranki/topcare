@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your existing styles below */
+@font-face {
+  font-family: "CeraPro";
+  src: url("/fonts/cera-pro/CeraPro-Regular.woff2") format("woff2"),
+    url("/fonts/cera-pro/CeraPro-Regular.woff") format("woff"),
+    url("/fonts/cera-pro/CeraPro-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CeraPro";
+  src: url("/fonts/cera-pro/CeraPro-Bold.woff2") format("woff2"),
+    url("/fonts/cera-pro/CeraPro-Bold.woff") format("woff"),
+    url("/fonts/cera-pro/CeraPro-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply globally */
+body {
+  font-family: "CeraPro", sans-serif;
+  font-size: medium;
+}
